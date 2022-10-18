@@ -1,0 +1,13 @@
+type Query {
+    objekt: Objekt
+}
+
+type Objekt {
+    name: String
+    id: Int
+    from: String
+}
+
+type Connection {
+    name: String
+}
